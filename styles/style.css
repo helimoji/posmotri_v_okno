@@ -138,6 +138,10 @@ ol {
   text-decoration: none;
 }
 
+.content__card-link:active {
+  background: #545050;
+}
+
 .content__video-card-title {
   color: #fff;
   font-family: "Oswald", serif;
@@ -176,7 +180,6 @@ ol {
   width: 225px;
   height: 27px;
   align-items: center;
-  margin-top: 5px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -243,6 +246,7 @@ input[type="checkbox"] + span {
 }
 
 .search-form__label:has(:focus-visible) {
+  display: flex;
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
